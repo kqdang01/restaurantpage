@@ -10,6 +10,15 @@ function generateAbout()
             child.remove()
         }
     }
+    else
+    {
+        return;
+    }
+
+    const aboutSection = document.createElement("section");
+    aboutSection.id = "about";
+    //
+    contentDiv.appendChild(aboutSection);
 }
 
 export {generateAbout};

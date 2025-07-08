@@ -10,6 +10,15 @@ function generateMenu()
             child.remove()
         }
     }
+    else
+    {
+        return;
+    }
+
+    const menuSection = document.createElement("section");
+    menuSection.id = "menu";
+    //
+    contentDiv.appendChild(menuSection);
 }
 
 export {generateMenu};
