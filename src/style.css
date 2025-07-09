@@ -75,9 +75,14 @@ header nav {
 
 .logo {
     height: 50px;
-    width: 50px;
+    max-width: 50px;
     background-image: url(./images/crown.svg);
     background-repeat: no-repeat;
+    transition-duration: 0.3s;
+}
+
+.logo:hover {
+  transform: rotate(-30deg);
 }
 
 nav button {
