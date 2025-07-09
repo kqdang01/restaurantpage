@@ -10,3 +10,5 @@ const aboutButton = document.querySelector(".aboutButton");
 homeButton.addEventListener("click", generateHome);
 menuButton.addEventListener("click", generateMenu);
 aboutButton.addEventListener("click", generateAbout);
+
+generateHome();

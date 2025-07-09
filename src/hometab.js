@@ -67,7 +67,7 @@ function fillSchedule(scheduleGrid)
     {
         const day = document.createElement("p");
         const time = document.createElement("p");
-        time.textContent = "6 AM – 10 PM";
+        time.textContent = "6 am – 10 pm";
         if (!i)
         {
             day.textContent = "Sunday";
